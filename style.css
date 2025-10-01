@@ -1,21 +1,35 @@
 ﻿/*BODY PROPERTIES AND ALL PROPERTIES*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 *{font-family: sans-serif;}
-body{}
+body{background-image: url(images/background.jpg); background-repeat: no-repeat; background-position: center; background-attachment: fixed; background-size: cover;}
 
 /*HEADER PROPERTIES*/
+
+/*navigation bar*/
 .navbar ul{list-style-type: none; overflow: hidden;}
-.navbar a{color: #ccc; text-decoration: none; display: block; text-align: right; padding: 10px; margin-right: 50px; margin-bottom: 100px;}
+.navbar li a{color: #ccc; text-decoration: none; display: block; text-align: right; padding: 10px; margin-right: 20px; margin-bottom: 100px;}
 .navbar li{float: right;}
+
+/*container*/
+.container a{margin-left: 10px; float: left; margin-top: 15px; text-decoration: none; color:#e8bb2e; font-family: "orbitron"}
 .container img{width: 50px; float: left;}
 
 /*DROPDOWN PROPERTIES*/
+
 .dropdown{display: inline-block; margin-left: 50%; transform: translateX(-50%);}
+
+/*dropdown button*/
 .dropdown button{background-color: #ccc7; color: #1c33a3; padding: 0 100px 0 100px; border: none; transition: .2s ease;}
+.dropdown:hover button{background-color: #dbdbdb; font-size: 1.1rem;}
+
+/*dropdown a*/
 .dropdown a{display: block; color: black; text-decoration: none; padding: 10px 10px; font-size: 1rem; transition: .4s ease;}
-.dropdown ul{overflow: hidden; list-style-type: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 10px;}
+.dropdown a:hover{color: #f00; font-size: 1.1rem;}
+
+/*dropdown content*/
 .dropdown .content{background-color: #ffffff1a; position: absolute; display:none; left: 50%; transform: translateX(-50%);}
 .dropdown:hover .content{display: block;}
-.dropdown a:hover{color: #f00; font-size: 1.1rem;}
-.dropdown:hover button{background-color: #dbdbdb; font-size: 1.1rem;}
+
+.dropdown ul{overflow: hidden; list-style-type: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 10px;}
 
 main h1{text-align: center;}

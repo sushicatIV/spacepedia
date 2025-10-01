@@ -6,6 +6,7 @@ body{}
 .navbar ul{list-style-type: none; overflow: hidden;}
 .navbar a{color: #ccc; text-decoration: none; display: block; text-align: right; padding: 10px; margin-right: 50px; margin-bottom: 100px;}
 .navbar li{float: right;}
+.container img{width: 50px; float: left;}
 
 /*DROPDOWN PROPERTIES*/
 .dropdown{display: inline-block; margin-left: 50%; transform: translateX(-50%);}

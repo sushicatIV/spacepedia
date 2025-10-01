@@ -9,12 +9,12 @@ body{}
 
 /*DROPDOWN PROPERTIES*/
 .dropdown{display: inline-block; margin-left: 50%; transform: translateX(-50%);}
-.dropdown button{background-color: #ccc7; color: #1c33a3; padding: 0 100px 0 100px; border: none;}
-.dropdown a{display: block; color: black; text-decoration: none; padding: 10px 10px;}
+.dropdown button{background-color: #ccc7; color: #1c33a3; padding: 0 100px 0 100px; border: none; transition: .2s ease;}
+.dropdown a{display: block; color: black; text-decoration: none; padding: 10px 10px; font-size: 1rem; transition: .4s ease;}
 .dropdown ul{overflow: hidden; list-style-type: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 10px;}
-.dropdown .content{background-color: #ffffff1a; position: absolute; display: none; left: 50%; transform: translateX(-50%);}
+.dropdown .content{background-color: #ffffff1a; position: absolute; display:none; left: 50%; transform: translateX(-50%);}
 .dropdown:hover .content{display: block;}
-.dropdown a:hover{color: #f00; transition: .4s ease;} 
-
+.dropdown a:hover{color: #f00; font-size: 1.1rem;}
+.dropdown:hover button{background-color: #dbdbdb; font-size: 1.1rem;}
 
 main h1{text-align: center;}

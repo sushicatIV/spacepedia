@@ -1,33 +1,48 @@
 ﻿/*BODY PROPERTIES AND ALL PROPERTIES*/
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 *{font-family: sans-serif;}
-body{background-image: url(images/background.jpg); background-repeat: no-repeat; background-position: center; background-attachment: fixed; background-size: cover;}
+body{background-image: url(images/background.jpg); background-repeat: no-repeat; background-position: center; background-attachment: fixed; background-size: cover; margin: 0; padding: 0;}
 
 /*HEADER PROPERTIES*/
 
 /*navigation bar*/
 .navbar ul{list-style-type: none; overflow: hidden;}
-.navbar li a{color: #ccc; text-decoration: none; float: right; display: flex; justify-content: space-between; padding-right: 20px;}
+.navbar li a{color: #ccc; text-decoration: none; float: right; display: flex; justify-content: space-between; padding-right: 20px; position: relative;}
+.navbar a::after{content:""; position: absolute; left: 0; bottom: 0; width: 0; height: 1.6px; background-color: #ccc; transition: width .3s ease;}
+.navbar a:hover::after{width: 2em;}
 
 /*container*/
 .container a{margin-left: 10px; float: left; margin-top: 10px; text-decoration: none; color:#e8bb2e; font-family: "orbitron"}
-.container img{width: 50px; float: left;}
-#space{background-color: #ccc; padding: 10px; margin-top: 6px;}
+.container img{width: 50px; float: left; margin-left: 10px;}
+#space{background-color: #271f2c97; padding: 10px; margin-top: 6px; border-radius: 100px;}
 
 /*MAIN PROPERTIES*/
-main{padding-top: 10%; transform: translateX(20px);}
+main{padding-top: 15%; font-size: 1.6rem;}
+
+
+.menu{width: 100%; height: 100vh;}
+.planetes{width: 100%; height: 100vh; margin: 0; padding: 0;}
+.planetes h1{margin: 0; padding: 20px; color: white;}
+.planete1{background-color: #07080d}
+.planete2{background-color: #131623}
+.planete3{background-color: #07080d}
+.planete4{background-color: #131623}
+.planete5{background-color: #07080d}
+.planete6{background-color: #131623}
+.planete7{background-color: #07080d}
+.planete8{background-color: #131623}
 
 /*DROPDOWN PROPERTIES*/
 
 .dropdown{background-color: none; display: inline-block; margin-left: 50%; transform: translateX(-50%);}
 
 /*dropdown button*/
-.dropdown button{background-color: #ccc0; color: #e8bb2e; padding: 0 100px 0 100px; border: none; transition: .2s ease; font-size: 1.4rem;}
-.dropdown:hover button{font-size: 1.8rem;}
+.dropdown button{background-color: #ccc0; color: #e8bb2e; padding: 0 100px 0 100px; border: none; transition: .2s ease; font-size: 2rem;}
+.dropdown:hover button{font-size: 2.4rem;}
 
 /*dropdown a*/
-.dropdown a{display: block; color: white; text-decoration: none; padding: 20px 10px; font-size: 1rem; transition: .4s ease;}
-.dropdown a:hover{color: #9c2bc5; font-size: 1.1rem;}
+.dropdown a{display: block; color: white; text-decoration: none; padding: 20px 10px; font-size: 1.2rem; transition: .4s ease;}
+.dropdown a:hover{color: #9c2bc5; font-size: 1.4rem;}
 
 /*dropdown content*/
 .dropdown .content{background-color: none; position: absolute; display:none; left: 50%; transform: translateX(-50%);}

@@ -7,7 +7,7 @@ body{background-image: url(images/background.jpg); background-repeat: no-repeat;
 
 /*navigation bar*/
 .navbar ul{list-style-type: none; overflow: hidden;}
-.navbar li a{color: #ccc; text-decoration: none; float: right; display: flex; justify-content: space-between; padding-right: 20px; position: relative;}
+.navbar li a{color: #ccc; text-decoration: none; float: right; padding-right: 20px; position: relative;}
 .navbar a::after{content:""; position: absolute; left: 0; bottom: 0; width: 0; height: 1.6px; background-color: #ccc; transition: width .3s ease;}
 .navbar a:hover::after{width: 2em;}
 
@@ -31,6 +31,7 @@ main{padding-top: 15%; font-size: 1.6rem;}
 .planete6{background-color: #131623}
 .planete7{background-color: #07080d}
 .planete8{background-color: #131623}
+
 
 /*DROPDOWN PROPERTIES*/
 

@@ -5,45 +5,48 @@ body{background-image: url(images/background.jpg); background-repeat: no-repeat;
 
 /*HEADER PROPERTIES*/
 
+/*container*/
+.container p{margin-left: 10px; float: left; margin-top: 10px; background: linear-gradient(76deg, #62615D9b, #9f9e9a9b);
+font-family: "orbitron"; color: black; position: relative;}
+.container a{margin-left: 10px; float: left; margin-top: 10px; text-decoration: none; font-family: "orbitron"}
+.container img{width: 50px; float: left; margin-left: 10px; border-radius: 10px;}
+#space{padding: 10px; margin-top: 6px; border-radius: 10px;}
+
 /*navigation bar*/
 .navbar ul{list-style-type: none; overflow: hidden;}
 .navbar li a{color: #ccc; text-decoration: none; float: right; padding-right: 20px; position: relative;}
 .navbar a::after{content:""; position: absolute; left: 0; bottom: 0; width: 0; height: 1.6px; background-color: #ccc; transition: width .3s ease;}
 .navbar a:hover::after{width: 2em;}
 
-/*container*/
-.container a{margin-left: 10px; float: left; margin-top: 10px; text-decoration: none; color:#e8bb2e; font-family: "orbitron"}
-.container img{width: 50px; float: left; margin-left: 10px;}
-#space{background-color: #271f2c97; padding: 10px; margin-top: 6px; border-radius: 100px;}
-
 /*MAIN PROPERTIES*/
 main{padding-top: 15%; font-size: 1.6rem;}
+.menu{height: 100vh; width: 100%;}
 
+.page{width: 100%; height: 100vh; padding: 0; margin: 0;}
+.planets {width: 100%; height: 100vh; text-align: center;}
+.planets_content{display: flex; justify-content: space-evenly;}
 
-.menu{width: 100%; height: 100vh;}
-.planetes{width: 100%; height: 100vh; margin: 0; padding: 0;}
-.planetes h1{margin: 0; padding: 20px; color: white;}
-.planete1{background-color: #07080d}
-.planete2{background-color: #131623}
-.planete3{background-color: #07080d}
-.planete4{background-color: #131623}
-.planete5{background-color: #07080d}
-.planete6{background-color: #131623}
-.planete7{background-color: #07080d}
-.planete8{background-color: #131623}
+.title {display: flex; align-content: center; justify-content: center;}
+.title h1{font-size: 6rem; padding: 0; margin: 50px 0 20px 0;}
+
+.image img{height: 100%; width: 100%;}
+.image{width: 30vw; margin: 0 100px 0 100px;}
+
+aside {width: 20%; overflow-wrap: break-word; color: #ccc;}
 
 
 /*DROPDOWN PROPERTIES*/
 
 .dropdown{background-color: none; display: inline-block; margin-left: 50%; transform: translateX(-50%);}
+.holder{display: inline-block; margin-left: 50%; transform: translateX(-50%);}
 
 /*dropdown button*/
-.dropdown button{background-color: #ccc0; color: #e8bb2e; padding: 0 100px 0 100px; border: none; transition: .2s ease; font-size: 2rem;}
+.dropdown button{background-color: #ccc0; color: #ccc; padding: 0 100px 0 100px; border: none; transition: .2s ease; font-size: 2rem;}
 .dropdown:hover button{font-size: 2.4rem;}
 
 /*dropdown a*/
 .dropdown a{display: block; color: white; text-decoration: none; padding: 20px 10px; font-size: 1.2rem; transition: .4s ease;}
-.dropdown a:hover{color: #9c2bc5; font-size: 1.4rem;}
+.dropdown a:hover{color: #7f93c2; font-size: 1.4rem;}
 
 /*dropdown content*/
 .dropdown .content{background-color: none; position: absolute; display:none; left: 50%; transform: translateX(-50%);}
@@ -51,4 +54,10 @@ main{padding-top: 15%; font-size: 1.6rem;}
 
 .dropdown ul{overflow: hidden; list-style-type: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 10px;}
 
-main h1{text-align: center; color: white;}
+main h1{text-align: center; color: white; position: relative; margin: 0; padding: 0; transition: .2s ease;}
+
+/*jugez pas les 2 prochaines lignes.*/
+.first_word::after{content:""; position: absolute; left: 500px; bottom: 5px; width: 100px; height: 1.6px; background-color: #ccc;}
+.holder::after{content:""; position: absolute; left: -230px; bottom: 20px; width: 1.6px; height: 50px; background-color: #ccc;}
+
+.first_word{color: #877fc28a}

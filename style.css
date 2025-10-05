@@ -39,6 +39,7 @@ aside {width: 20%; overflow-wrap: break-word; color: #ccc;}
 
 .dropdown{background-color: none; display: inline-block; margin-left: 50%; transform: translateX(-50%);}
 .holder{display: inline-block; margin-left: 50%; transform: translateX(-50%);}
+.holder2{display: inline-block; margin-left: 50%; transform: translateX(-50%);}
 
 /*dropdown button*/
 .dropdown button{background-color: #ccc0; color: #ccc; padding: 0 100px 0 100px; border: none; transition: .2s ease; font-size: 2rem;}
@@ -57,7 +58,7 @@ aside {width: 20%; overflow-wrap: break-word; color: #ccc;}
 main h1{text-align: center; color: white; position: relative; margin: 0; padding: 0; transition: .2s ease;}
 
 /*jugez pas les 2 prochaines lignes.*/
-.first_word::after{content:""; position: absolute; left: 500px; bottom: 5px; width: 100px; height: 1.6px; background-color: #ccc;}
 .holder::after{content:""; position: absolute; left: -230px; bottom: 20px; width: 1.6px; height: 50px; background-color: #ccc;}
+.holder2::after{content:""; position: absolute; left: -244px; bottom: 58px; width: 100px; height: 1.6px; background-color: #ccc;}
 
 .first_word{color: #877fc28a}

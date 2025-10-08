@@ -1,5 +1,6 @@
 ﻿/*BODY PROPERTIES AND ALL PROPERTIES*/
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 *{font-family: sans-serif;}
 body{background-image: url(images/background.jpg); background-repeat: no-repeat; background-position: center; background-attachment: fixed; background-size: cover; margin: 0; padding: 0;}
 
@@ -19,21 +20,27 @@ font-family: "orbitron"; color: black; position: relative;}
 .navbar a:hover::after{width: 2em;}
 
 /*MAIN PROPERTIES*/
+html{scroll-behavior: smooth;}
 main{padding-top: 15%; font-size: 1.6rem;}
 .menu{height: 100vh; width: 100%;}
 
 .page{width: 100%; height: 100vh; padding: 0; margin: 0;}
-.planets {width: 100%; height: 100vh; text-align: center;}
+.planets {width: 100%; height: 100vh; padding: 20px 0 20px 0;}
+.planets h2{color: #726f6f}
 .planets_content{display: flex; justify-content: space-evenly;}
 
 .title {display: flex; align-content: center; justify-content: center;}
 .title h1{font-size: 6rem; padding: 0; margin: 50px 0 20px 0;}
 
 .image img{height: 100%; width: 100%;}
-.image{width: 30vw; margin: 0 100px 0 100px;}
+.image{width: 30vw; height: 30%; margin: 0 100px 0 100px;}
 
 aside {width: 20%; overflow-wrap: break-word; color: #ccc;}
 
+.planets button{background: none; border: none; color: #98aee8; display: inline-block; font-size: 1em; margin: 0; padding: 0; text-decoration: underline;}
+.planets button span{margin: 0; padding: 0;}
+.planets button:hover span{display: none;}
+.planets button:hover::before{content: "meaning it has a rocky body like Earth"; text-decoration: none; display: inline-block; text-align:start }
 
 /*DROPDOWN PROPERTIES*/
 

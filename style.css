@@ -13,7 +13,7 @@ body{background-image: url(images/background.jpg); background-repeat: no-repeat;
 
 /*container*/
 .container p{margin-left: 10px; float: left; margin-top: 10px; background: linear-gradient(76deg, #62615D9b, #9f9e9a9b);
-font-family: "orbitron"; color: black; position: relative;}
+font-family: "orbitron"; color: white; position: relative;}
 .container a{margin-left: 10px; float: left; margin-top: 10px; text-decoration: none; font-family: "orbitron"}
 .container img{width: 50px; float: left; margin-left: 10px; border-radius: 10px;}
 #space{padding: 10px; margin-top: 6px; border-radius: 10px;}

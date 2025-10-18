@@ -1,9 +1,0 @@
-Mercure
-moons: 0
-smallest in the sys, first planet from the sun, 1 solar day (Sunrise to Sunrise) on mercury lasts for 176 earth's days
-one of the four terrestrial meaning it has a rocky body
-Volume: 6.083*10^10km
-Mass: 3.3011*10^23kg
-Temp: 164°C
-orbital speed: 47.36km/s
-Density: 5.427g/cm

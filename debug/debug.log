@@ -202,3 +202,6 @@
 [1002/001107.148:INFO:CONSOLE(1)] "GeoIP localization: {"lat":48.6921,"lng":6.1878,"accuracy":20000}", source: https://d3ufh70wg9uzo4.cloudfront.net/js/app.44b5ed00.js (1)
 [1002/001107.152:INFO:CONSOLE(1)] "Could not get location from browser, use fallback from GeoIP", source: https://d3ufh70wg9uzo4.cloudfront.net/js/app.44b5ed00.js (1)
 [1002/001107.152:INFO:CONSOLE(1)] "Geocoding position... ", source: https://d3ufh70wg9uzo4.cloudfront.net/js/app.44b5ed00.js (1)
+[1011/143642.254:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[1011/143642.478:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[1011/143642.645:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is disabled
